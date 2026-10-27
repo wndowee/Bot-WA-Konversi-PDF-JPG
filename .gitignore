@@ -1,0 +1,24 @@
+# Dependensi
+node_modules/
+
+# Sesi WhatsApp dan cadangan
+auth/
+auth-lama*/
+
+# Rahasia
+.env
+.env.*
+!.env.example
+
+# Log
+*.log
+.pm2/
+
+# Poppler lokal
+poppler/
+poppler-*/
+poppler-download.zip
+
+# File sementara
+tmp/
+temp/
